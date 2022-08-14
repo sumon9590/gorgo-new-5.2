@@ -1,0 +1,294 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font size: 14px;
+	line-height: 24px;
+	font-family: 'Poppins', sans-serif;
+
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Poppins', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+.row{
+	width: 100%;
+	float: left;
+}
+/* global css code start here */
+.col-lg-2{
+	width: 17%;
+	float: left;
+}
+.col-lg-3{
+	width: 25%;
+	float: left;
+}
+.col-lg-4{
+	width: 32%;
+	float: left;
+}
+.col-lg-6{
+	width: 50%;
+	float: left;
+}
+.col-lg-7{
+	width: 57%;
+	float: left;
+}
+.col-lg-12{
+	width: 100%;
+	float: left;
+}
+
+/* global css code end here */
+/*header start*/
+.header{
+	width: 100%;
+	float: left;
+	padding: 30px 0px;
+	position: fixed;
+	background: #EFF7FB  ;
+}
+.logo{
+	width: 160px;
+	display: block;
+}
+.header .navbar{
+	width: 100%;
+	float: left;
+	margin: 12px 0px 0px;
+}
+.header .navbar li{
+	list-style: none;
+	display: inline-block;
+}
+.header .navbar li a{
+	display: block;
+	font-size: 16 px;
+	line-height: 26px;
+	padding: 0px 20px 0px 0px;
+	font-weight: 700;
+	color: #777;
+	text-transform: capitalize;
+	transition: 1s;
+}
+.header .navbar li a:hover{
+	color: #1B70FF;
+}
+.btn{
+	width: 90%;
+	float: left;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 700;
+	height: 40px;
+	color: white;
+	margin: 5px 0px 0px 80px;
+	background: darkorange;
+	border: 2px solid darkorange;
+
+}
+.btn:hover{
+	cursor: pointer;
+}
+/* header end */
+/* content start */
+.content{
+	width: 100%;
+	float: left;
+	padding: 300px 0px 100px;
+	
+}
+.content .mini-content{
+	width: 100%;
+	float: left;
+	margin: 0px 0px 0px 15px;
+}
+.content .mini-content h1{
+	font-size: 46px;
+	line-height: 56px;
+	font-weight: 700;
+	text-transform: capitalize;
+	margin: 35px 0px 0px 0px;
+}
+.content .mini-content p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 700;
+	margin: 20px 0px 0px;
+	color: #777;
+}
+.banner-img{
+	width: 90%;
+	margin: 0px 0px 0px 20px;
+}
+/* content end */
+/* our start */
+.our{
+	width: 100%;
+	float: left;
+
+}
+.our .stanning{
+	width: 100%;
+	float: left;
+	text-align: center;
+	padding: 300px 0px 0px 0px;
+
+}
+.our .stanning h1{
+	font-size: 24px;
+	line-height: 34px;
+	text-transform: capitalize;
+	padding: 0px 0px 5px;
+}
+.our .stanning p{
+	font-size: 10px;
+	line-height: 20px;
+	font-weight: 400;
+}
+/* our end */
+
+/* demo section code start */
+.demo{
+	width: 100%;
+	float: left;
+}
+.d1{
+	width: 98%;
+	float: left;
+	
+}
+/* demo section code end */
+
+/* features start */
+.features{
+	width: 100%;
+	float: left;
+}
+.features .inner{
+	width: 100%;
+	float: left;
+	text-align: center;
+	padding: 400px 0px 0px 0px;
+
+
+}
+.features .inner h1{
+	font-size: 24px;
+	line-height: 34px;
+	text-transform: capitalize;
+	padding: 0px 0px 5px;
+}
+.features .inner p{
+	font-size: 10px;
+	line-height: 20px;
+	font-weight: 400;
+}
+/* features end */
+/* box code start */
+.box{
+	width: 100%;
+	float: left;
+	padding: 20px 0px 50px;
+	
+	
+}
+.box .a{
+	width: 90%;
+	float: left;
+	text-align: center;
+	background: #EFF7FB ;
+	padding: 20px 10px;
+	margin: 0px 20px 0px 20px;
+	border-radius: 2px;
+}
+.box .a .lo1{
+	width: 50px;
+	border-radius: 100%;
+	background: #fff;
+
+}
+.box .a h1{
+	font-size: 18px;
+	line-height: 28px;
+
+}
+.box .a p{
+	font-size: 12px;
+	line-height: 22px;
+	color: #777;
+	font-weight: 400;
+}
+/* footer start */
+.footer{
+	width: 100%;
+	float: left;
+	background: #777  ;
+	padding: 50px 0px 20px;
+}
+.footer .last{
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+.footer .last h1{
+	font-size: 36px;
+	line-height: 46px;
+	color: #fff;
+	padding: 50px 0px 20px;
+}
+.butn{
+	width: 10%;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 700;
+	height: 40px;
+	color: white;
+	background: darkorange;
+	border: 2px solid darkorange;
+margin: 30px 0px;
+}
+.footer .last .butn:hover{
+	cursor: pointer;
+}
+.footer .last .fl{
+	padding: 20px 0px;
+}
+.footer .last .social-icon{
+	width: 100%;
+}
+.footer .last .social-icon li{
+	list-style: none;
+	display: inline-block;
+	padding: 0px 10px;
+}
+.footer .last .social-icon li a{
+	display: block;
+	font-size: 20px;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	border-radius: 100%;
+	color: #fff;
+	background: #000;
+	border: solid #000;
+	margin: 20px 0px;
+	transition: 1s;
+}
+.footer .last .social-icon li a:hover{
+	background: #fff;
+	color: #000;
+}
+.footer .last .social-icon li a:focus{
+	background: #fff;
+	color: #000;
+}
